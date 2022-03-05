@@ -10,3 +10,6 @@ rm -rf ~/.config/xfce4
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
 cp -r xfce4 ~/.config
+clear
+echo "Process has completed."
+read -n 1 -s -r -p "Press any key to exit..."
